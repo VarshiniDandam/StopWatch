@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('BackgroundImage.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.background {
+    background-color: rgba(37, 33, 33, 0.577); /* Transparent black overlay */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stopwatch-container {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    box-shadow: 0 0 20px rgba(44, 42, 42, 0.5); /* Drop shadow effect */
+}
+
+.stopwatch-box {
+    margin-top: 50px;
+}
+
+#display {
+    font-size: 2em;
+}
+
+button {
+    margin: 10px;
+    padding: 8px 16px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 20px; /* Rounded corners */
+}
+
+/* Styling specific buttons */
+button.start {
+    background-color: lightgreen;
+}
+
+button.pause {
+    background-color: dodgerblue;
+}
+
+button.reset {
+    background-color: red;
+}
+
+button.lap {
+    background-color: yellow;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
